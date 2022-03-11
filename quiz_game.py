@@ -11,7 +11,7 @@ def new_game():
         for i in options[question_num-1]:
             print(i)
         guess = input("Enter (A, B, C, or D):\n").upper()
-        for j in range(3):
+        for j in range(2):
             while True:
                 if guess == "A".upper() or guess == "B".upper() or guess == "C".upper() or guess == "D".upper():
                     answered = True
